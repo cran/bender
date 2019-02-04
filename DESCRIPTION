@@ -1,7 +1,7 @@
 Package: bender
 Type: Package
 Title: Bender Client
-Version: 0.1.0
+Version: 0.1.1
 Author: Dylan Heirstraeten
 Maintainer: Valentin Thorey <valentin@dreem.com>
 Description: R client for Bender Hyperparameters optimizer : <https://bender.dreem.com>
@@ -12,6 +12,6 @@ LazyData: true
 RoxygenNote: 6.1.1
 Imports: R6, jsonlite, httr
 NeedsCompilation: no
-Packaged: 2019-01-15 08:42:05 UTC; dylan
+Packaged: 2019-02-04 17:09:17 UTC; dylan
 Repository: CRAN
-Date/Publication: 2019-01-20 18:30:03 UTC
+Date/Publication: 2019-02-04 17:23:28 UTC

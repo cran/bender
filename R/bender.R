@@ -96,7 +96,8 @@ Bender <- R6Class("Bender", cloneable = FALSE, list(
   experiment = NULL,
   algo = NULL,
   silent_fail = FALSE,
-  initialize = function(mail, password, silent_fail=FALSE) {
+  initialize = function(mail, password, host='https://bender-api.dreem.com/', silent_fail=FALSE) {
+    base_url=host
     self$silent_fail = silent_fail
     if(!hasArg(mail) || !hasArg(password) || !is.character(mail) || !is.character(password)) {
       stop("Please provide a mail string and a password string.")
